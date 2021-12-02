@@ -1,106 +1,114 @@
 @font-face {
-    font-family: "Noto Sans";
-    font-style: normal;
-    font-display: swap;
-    font-weight: 400;
-    src:
-      url("fonts/NotoSans-Regular.woff2") format("woff2"),
-      url("fonts/NotoSans-Regular.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: "Noto Sans";
-    font-style: italic;
-    font-display: swap;
-    font-weight: 400;
-    src:
-      url("fonts/NotoSans-Italic.woff2") format("woff2"),
-      url("fonts/NotoSans-Italic.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: "Noto Sans";
-    font-style: normal;
-    font-display: swap;
-    font-weight: 500;
-    src:
-      url("fonts/NotoSans-Medium.woff2") format("woff2"),
-      url("fonts/NotoSans-Medium.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: "Noto Sans";
-    font-style: normal;
-    font-display: swap;
-    font-weight: 600;
-    src:
-      url("fonts/NotoSans-SemiBold.woff2") format("woff2"),
-      url("fonts/NotoSans-SemiBold.woff") format("woff");
-  }
-  
-  body {
-    margin: 0;
-    font-family: "Noto Sans", "Arial", sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-    color: #283c54;
-    min-width: 1280px;
-  }
-  
-  .container {
-    width: 1170px;
-    margin: 0 auto;
-    padding-left: 98px;
-    padding-right: 98px;
-  }
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src:
+    url("fonts/NotoSans-Regular.woff2") format("woff2"),
+    url("fonts/NotoSans-Regular.woff") format("woff");
+}
 
-  .main-nav {
-    display: flex;
-    align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  
-  .site-navigation {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 0 10px 0;
-    margin: 0 40px 0 auto;
-    list-style: none;
-  }
-  
-  .site-navigation-item {
-    margin-right: 30px;
-  }
-  
-  .site-navigation-item:last-child {
-    margin-right: 0;
-  }
+@font-face {
+  font-family: "Noto Sans";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src:
+    url("fonts/NotoSans-Italic.woff2") format("woff2"),
+    url("fonts/NotoSans-Italic.woff") format("woff");
+}
 
-  .site-navigation-item a {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 18px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #163152;
-    text-decoration: none;
-  }
-  
-  .site-navigation-item a:hover,
-  .site-navigation-item a:focus {
-    opacity: 0.7;
-  }
-  
-  .site-navigation-item a:active {
-    opacity: 0.5;
-  }
-  
-  .signin:hover,
-  .signin:focus {
-    opacity: 0.7;
-  }
-  
-  .signin:active {
-    opacity: 0.5;
-  }
+@font-face {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src:
+    url("fonts/NotoSans-Medium.woff2") format("woff2"),
+    url("fonts/NotoSans-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src:
+    url("fonts/NotoSans-SemiBold.woff2") format("woff2"),
+    url("fonts/NotoSans-SemiBold.woff") format("woff");
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #283c54;
+  min-width: 1280px;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding-left: 98px;
+  padding-right: 98px;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.site-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0 10px 0;
+  margin: 0 40px 0 auto;
+  list-style: none;
+}
+
+.site-navigation-item {
+  margin-right: 30px;
+}
+
+.site-navigation-item:last-child {
+  margin-right: 0;
+}
+
+.site-navigation-item a {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #163152;
+  text-decoration: none;
+}
+
+.site-navigation-item a:hover,
+.site-navigation-item a:focus {
+  opacity: 0.7;
+}
+
+.site-navigation-item a:active {
+  opacity: 0.5;
+}
+
+.signin:hover,
+.signin:focus {
+  opacity: 0.7;
+}
+
+.signin:active {
+  opacity: 0.5;
+}
