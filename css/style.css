@@ -254,3 +254,60 @@ body {
 .main-screen-nav-item a:active {
   opacity: 0.5;
 }
+
+.events {
+  padding-top: 115px;
+}
+
+.events-articles {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.events-article {
+  display: flex;
+  margin-bottom: 120px;
+}
+
+.events-article-text {
+  padding: 45px 70px 10px;
+}
+
+.events-article-img {
+  order: 2;
+}
+
+.events-article-more {
+  order: 1;
+}
+
+.events-article > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.events-article-reverse {
+  display: flex;
+  text-align: right;
+}
+
+.events-article-reverse h3 {
+  align-items: flex-end;
+}
+
+.events-article-reverse .events-more {
+  margin: auto 20px 45px 70px;
+}
+
+.events-article-reverse .events-article-img {
+  order: 0;
+}
+
+.events-article-reverse .events-article-more {
+  order: 1;
+}
+
+.events-article-reverse .events-article-text {
+  order: 2;
+}
