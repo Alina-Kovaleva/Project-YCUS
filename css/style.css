@@ -282,9 +282,62 @@ body {
   order: 1;
 }
 
+.events-article h3 {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 20px 0;
+  font-weight: 600;
+  line-height: 34px;
+  color: #163152;
+}
+
+.events-article h3::after {
+  content: "";
+  width: 130px;
+  margin-top: 10px;
+  border-bottom: 2px solid #00c6bd;
+}
+
 .events-article > div {
   display: flex;
   flex-direction: column;
+}
+
+.events-article time {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #163152;
+}
+
+.events-article p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: #283c54;
+}
+
+.events-more {
+  width: 58px;
+  height: 58px;
+  margin: auto 70px 45px 20px;
+  border: 1px solid #163152;
+  border-radius: 50%;
+  background-image: url("../img/main-page/event1/arrow.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+.events-more:hover,
+.events-more:focus {
+  opacity: 0.7;
+}
+
+.events-more:active {
+  opacity: 0.5;
 }
 
 .events-article-reverse {
@@ -297,6 +350,7 @@ body {
 }
 
 .events-article-reverse .events-more {
+  transform: scale(-1, 1);
   margin: auto 20px 45px 70px;
 }
 
