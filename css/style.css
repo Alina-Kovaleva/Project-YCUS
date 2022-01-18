@@ -505,7 +505,7 @@ body {
   border-radius: 50%;
   background-color: #fdfdff;
   background-image: url("../img/main-page/gallery/play.svg");
-  background-position: center;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
   border: none;
   box-sizing: border-box;
