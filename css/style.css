@@ -635,3 +635,128 @@ body {
   line-height: 24px;
   color: #283c54;
 }
+
+.news {
+  padding-top: 100px;
+  padding-bottom: 45px;
+}
+
+.news h2::after {
+  width: 110px;
+}
+
+.news-list {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 25px 30px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.news-item-big {
+  grid-row: span 2;
+}
+
+.news-article {
+  display: grid;
+  width: 370px;
+  background-color: #fdfdff;
+  box-shadow: 0 4px 30px rgba(22, 49, 82, 0.12);
+}
+
+.news-item-big .news-article {
+  width: 770px;
+}
+
+.news-article-img {
+  margin: 0;
+  grid-row-start: 1;
+}
+
+.news-article-img figcaption {
+  margin: 5px 20px 0 20px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(40, 60, 84, 0.5);
+}
+
+.news-article h3 {
+  margin: 15px 0 10px 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #163152;
+}
+
+.news-article p {
+  margin: 0 20px 5px 20px;
+  font-size: 14px;
+  line-height: 18px;
+  height: 55px;
+  color: #283c54;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.news-article a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.news-article a:hover {
+  opacity: 0.7;
+}
+
+.news-article a:active {
+  opacity: 0.5;
+}
+
+.news-article-footer {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-areas:
+    "img author share"
+    "img time share";
+  align-items: center;
+  grid-column-gap: 10px;
+  padding: 15px 20px 20px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.news-article-author-img {
+  grid-area: img;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+}
+
+.news-article-footer a {
+  font-weight: 600;
+}
+
+.news-article-footer a:hover {
+  opacity: 0.7;
+}
+
+.news-article-footer a:active {
+  opacity: 0.5;
+}
+
+.news-article-footer time {
+  color: rgba(40, 60, 84, 0.5);
+}
+
+.news-share {
+  grid-area: share;
+  width: 17px;
+  height: 17px;
+  background-image: url("../img/main-page/news/share.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
