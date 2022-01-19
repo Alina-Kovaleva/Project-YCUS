@@ -760,3 +760,44 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.table {
+  padding-top: 75px;
+  padding-bottom: 20px;
+}
+
+.table h2 {
+  align-items: flex-start;
+}
+
+.table h2::after {
+  width: 370px;
+}
+
+.competition-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.competition-table th {
+  padding: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #163152;
+  text-align: left;
+  vertical-align: top;
+}
+
+.competition-table tr:nth-child(even) {
+  background-color: #f5f5f7;
+}
+
+.competition-table td {
+  padding: 17px 20px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #283c54;
+}
+
