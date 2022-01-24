@@ -801,3 +801,97 @@ body {
   color: #283c54;
 }
 
+.form {
+  padding-top: 105px;
+  padding-bottom: 20px;
+}
+
+.form-wrapper {
+  display: flex;
+}
+
+.form-column:first-child {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.form h2 {
+  align-items: flex-start;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.form h2::after {
+  width: 270px;
+}
+
+.form p {
+  margin: 0 0 30px 0;
+  font-size: 16px;
+  line-height: 22px;
+  color: #283C54;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-form button {
+  padding: 13px 30px;
+  margin-top: 10px;
+  color: #FDFDFF;
+  background-color: #00C6BD;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  border:none;
+}
+
+.feedback-form label {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #283C54;
+  margin-bottom: 10px;
+}
+
+.feedback-form input {
+  border: 1px solid #163152;
+  font-size: 16px;
+  line-height: 22px;
+  color: #283C54;
+  font-weight: inherit;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.feedback-form input::placeholder {
+  opacity: 0.4;
+}
+
+.feedback-form .checkbox-label {
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+  margin-top: 12px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #283C54;
+}
+
+.feedback-form .checkbox-label::before {
+  content: "";
+  width: 19px;
+  height: 19px;
+  margin: 1px 10px 1px 1px;
+  outline: 1px solid rgba(22, 49, 82, 0.15);
+  box-sizing: border-box;
+}
+
+.feedback-form input[type="checkbox"]:checked + .checkbox-label::before {
+  background-color: #00c6bd;
+  border: 3px solid #ffffff;
+}
