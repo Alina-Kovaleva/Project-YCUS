@@ -892,6 +892,104 @@ body {
 }
 
 .feedback-form input[type="checkbox"]:checked + .checkbox-label::before {
-  background-color: #00c6bd;
+  background-color: #00C6BD;
   border: 3px solid #ffffff;
+}
+
+.contacts {
+  padding-top: 90px;
+  padding-bottom: 115px;
+}
+
+.contacts-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.contacts-column {
+  margin-right: 100px;
+}
+
+.contacts h2 {
+  align-items: flex-start;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.contacts h2::after {
+  width: 100px;
+}
+
+.contacts-list {
+  margin: 0;
+}
+
+.contacts-list div:not(:last-child) {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.contacts-name {
+  margin-right: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #163152;
+}
+
+.contacts-value {
+  margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  color: #283C54;
+}
+
+.contacts-value address {
+  font-style: normal;
+}
+
+.contacts-value a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.social-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 0;
+  margin: 15px 0 0 0;
+  list-style: none;
+}
+
+.social-list-item {
+  margin-right: 15px;
+}
+
+.social-list-item:last-child {
+  margin-right: 0;
+}
+
+.social-list-item a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #00C6BD;
+  box-sizing: border-box;
+}
+
+.social-list-item a:hover,
+.social-list-item a:focus {
+  opacity: 0.7;
+}
+
+.social-list-item a:active {
+  opacity: 0.5;
 }
